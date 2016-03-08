@@ -150,7 +150,7 @@
 						<label>
 							Tanggal Sidang
 						</label>
-						<input required type="text" class="form-control TA" name="tgl_sidang" disabled/>
+						<input required type="date" class="form-control TA" name="tgl_sidang" disabled/>
 					</div>
 
 					 <div class="form-group"> 
@@ -164,7 +164,7 @@
 						<label>
 							Tanggal Ijazah
 						</label>
-						<input required type="text" class="form-control TA" name="tgl_ijazah" disabled=""/>
+						<input required type="date" class="form-control TA" name="tgl_ijazah" disabled=""/>
 					</div>
 
 					 <div class="form-group"> 

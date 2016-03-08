@@ -104,7 +104,8 @@ include "header.php";
                        $tgl_ijazah  = $_REQUEST['tgl_ijazah'];
                        $judul       = $_REQUEST['judul'];
                        $judul_en    = $_REQUEST['judul_en'];
-                       addTNA($tgl_sidang, $no_ijazah, $tgl_ijazah, $judul, $judul_en);
+                       print_r($_REQUEST['tgl_sidang']);
+                       //addTNA($tgl_sidang, $no_ijazah, $tgl_ijazah, $judul, $judul_en);
                        
                    ?>
                     <div class="panel panel-default">
@@ -142,7 +143,7 @@ include "header.php";
                  </div>
             <div class="col-md-12">
 			  <section>
-                	<code> 
+                	
                 	
                 	
                 	<code>
